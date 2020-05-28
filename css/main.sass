@@ -1,0 +1,221 @@
+$main-color: #ff7716
+$main-color-trans: #FFEFE3
+$dark-gray: rgba(0, 0, 0, 0.7)
+$light-gray: #c4c4c4
+$alt-gray: rgba(0, 0,0,0.4)
+
+@font-face
+    font-family: 'lato-bold'
+    src: url('../assets/typefaces/Lato/Lato-Bold.ttf') format('truetype')
+
+@font-face
+    font-family: 'lato-regular'
+    src: url('../assets/typefaces/Lato/Lato-Regular.ttf') format('truetype')
+
+@font-face
+    font-family: 'lato-light'
+    src: url('../assets/typefaces/Lato/Lato-Light.ttf') format('truetype')
+
+body
+    margin: 0 auto
+    max-width: 780px
+
+// @media only screen and (max-width: 1920px)
+//     #header-container, #body-container
+//         width: 100%
+
+#header-image-container
+    width: 280px
+    height: 280px
+    background-image: url('../assets/profile.jpg')
+    background-position: center
+    background-size: 130%
+    border-radius: 35px
+
+    margin-left: auto
+
+#header-container
+    margin-top: 70px
+    margin-bottom: 60px
+    span
+        font-family: 'lato-regular'
+        font-weight: 500
+        font-size: 16px
+        line-height: 20px
+        color: $alt-gray
+
+        display: inline-block
+
+#header-name
+    display: inline-block
+    margin-bottom: 15px
+    span
+        font-family: 'lato-bold' !important
+        font-style: normal !important
+        font-size: 56px !important
+        line-height: 68px !important
+        color: $dark-gray !important
+
+#bold
+    font-weight: bold !important
+    color: $dark-gray !important
+
+#name-underline
+    background-color: $main-color
+    width: 80%
+    height: 4px
+    float: right
+
+#header-navigation
+    padding-left: 0px
+    position: absolute
+    bottom: 0
+    span
+        padding-right: 15px
+        color: $dark-gray
+        font-size: 17px !important
+
+        &:hover
+            color: $main-color
+            cursor: pointer
+
+.section-title
+    color: $main-color
+    font-family: 'lato-regular'
+    font-size: 22px
+    line-height: 27px
+    text-align: right
+    padding-right: 15px
+    width: 100%
+
+.title
+    display: flex
+    justify-content: center
+    padding-right: 0px
+
+.about-paragraph
+    font-family: 'lato-light'
+    color: $dark-gray
+    font-size: 17px
+    line-height: 170%
+
+.project-container
+    display: inline-block
+    padding-left: 0px
+    margin-bottom: 40px
+
+    a 
+        text-decoration: none
+
+.project-title
+    display: inline-block
+    font-family: 'lato-regular'
+    font-weight: 600
+    font-size: 22px
+    color: $dark-gray
+
+    transition: all ease-in-out .1s
+
+
+    &:hover
+        padding-right: 10px
+        color: $main-color
+        transition: all ease-in-out .1s
+
+.link-icon-container
+    display: inline-block
+    width: 17px
+    height: 17px
+    background-image: url('../assets/icons/link-24px.svg')
+    background-size: 100%
+
+.project-description
+    padding-left: 30px
+    font-family: 'lato-light'
+    font-size: 17px
+
+    margin-bottom: -20px
+
+.project-categories
+    display: inline-block
+    padding-left: 30px
+
+.project-category
+    display: inline-block
+    margin-right: 3px
+    vertical-align: middle
+
+.category
+    display: inline-block
+    padding-top: 4px
+    padding-bottom: 4px
+    padding-left: 8px
+    padding-right: 8px
+    color: $main-color
+    background-color: $main-color-trans
+    border-radius: 4px
+    font-size: 11px
+    margin: 0 auto
+
+.content-container
+    margin-bottom: 80px !important
+
+#timeline-container
+    display: inline-block
+
+#timeline-svg
+    background-image: url('../assets/icons/timeline.svg')
+    background-size: cover
+    display: inline-block
+    width: 10px
+    height: 330px
+
+    float: left
+
+#timeline-content
+    width: 50%
+    display: inline-block
+    float: left
+    padding-left: 14px
+
+.timeline-entry
+    padding-bottom: 30px
+    span
+        font-family: 'lato-regular'
+        font-size: 17px
+        color: $dark-gray
+        opacity: .5
+    .timeline-entry-title
+        opacity: 1 !important
+
+.skills-column
+    display: block
+
+    span
+        display: block
+        font-family: 'lato-light'
+        font-size: 16px
+        color: $dark-gray
+        opacity: .6
+
+        padding-bottom: 8px
+
+    .skill-title
+        font-family: 'lato-regular' !important
+        font-size: 22px !important
+        opacity: 1
+
+#connect
+    margin-top: 40px
+    margin-bottom: 150px !important
+#connect-container
+    padding-left: 5px
+    a
+        color: $main-color
+        padding-right: 15px
+
+.body-link
+    color: $main-color !important
+
+.navigation-link a 
+    color: $dark-gray
