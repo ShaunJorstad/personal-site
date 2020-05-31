@@ -46,6 +46,10 @@ body
 
         display: inline-block
 
+#header-left-container
+    display: flex 
+    flex-direction: column
+
 #header-name
     display: inline-block
     margin-bottom: 15px
@@ -68,8 +72,7 @@ body
 
 #header-navigation
     padding-left: 0px
-    position: absolute
-    bottom: 0
+    margin-top: auto
     span
         padding-right: 15px
         color: $dark-gray
@@ -173,18 +176,18 @@ body
     float: left
 
 #timeline-content
-    width: 50%
     display: inline-block
     float: left
     padding-left: 14px
 
 .timeline-entry
     padding-bottom: 30px
-    span
+    p
         font-family: 'lato-regular'
         font-size: 17px
         color: $dark-gray
         opacity: .5
+        margin-bottom: 0px
     .timeline-entry-title
         opacity: 1 !important
 
@@ -194,15 +197,15 @@ body
     span
         display: block
         font-family: 'lato-light'
-        font-size: 16px
+        font-size: 14px
         color: $dark-gray
         opacity: .6
 
-        padding-bottom: 8px
+        padding-bottom: 4px
 
     .skill-title
         font-family: 'lato-regular' !important
-        font-size: 22px !important
+        font-size: 18px !important
         opacity: 1
 
 #connect

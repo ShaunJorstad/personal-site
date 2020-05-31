@@ -38,6 +38,11 @@ body {
   display: inline-block;
 }
 
+#header-left-container {
+  display: flex;
+  flex-direction: column;
+}
+
 #header-name {
   display: inline-block;
   margin-bottom: 15px;
@@ -64,8 +69,7 @@ body {
 
 #header-navigation {
   padding-left: 0px;
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
 }
 #header-navigation span {
   padding-right: 15px;
@@ -180,7 +184,6 @@ body {
 }
 
 #timeline-content {
-  width: 50%;
   display: inline-block;
   float: left;
   padding-left: 14px;
@@ -189,11 +192,12 @@ body {
 .timeline-entry {
   padding-bottom: 30px;
 }
-.timeline-entry span {
+.timeline-entry p {
   font-family: "lato-regular";
   font-size: 17px;
   color: rgba(0, 0, 0, 0.7);
   opacity: 0.5;
+  margin-bottom: 0px;
 }
 .timeline-entry .timeline-entry-title {
   opacity: 1 !important;
@@ -205,14 +209,14 @@ body {
 .skills-column span {
   display: block;
   font-family: "lato-light";
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.7);
   opacity: 0.6;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 .skills-column .skill-title {
   font-family: "lato-regular" !important;
-  font-size: 22px !important;
+  font-size: 18px !important;
   opacity: 1;
 }
 
