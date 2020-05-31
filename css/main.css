@@ -184,7 +184,6 @@ body {
 }
 
 #timeline-content {
-  width: 50%;
   display: inline-block;
   float: left;
   padding-left: 14px;
@@ -193,11 +192,12 @@ body {
 .timeline-entry {
   padding-bottom: 30px;
 }
-.timeline-entry span {
+.timeline-entry p {
   font-family: "lato-regular";
   font-size: 17px;
   color: rgba(0, 0, 0, 0.7);
   opacity: 0.5;
+  margin-bottom: 0px;
 }
 .timeline-entry .timeline-entry-title {
   opacity: 1 !important;
