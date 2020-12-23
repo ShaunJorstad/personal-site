@@ -1,0 +1,14 @@
+// kruskal
+// building array of length V takes V time 
+// unioning two arrays length m and n in O(min{m,n}) time and
+
+
+MST-Kruskal(G, w)
+    A = {}
+    for each vertex v in G.v 
+        Make-Array(v) 
+    sort the edges of G.E into nondecreasing order by weight w 
+    for each edge (u,v) in G.E, taken in nondecreasing order by weight 
+        if u and v are in the same array 
+            A = A union{(u,v)}
+            Union(u, v)
