@@ -1,0 +1,38 @@
+[
+  {
+    "projectName": "Hybrid Parallelized Simulation /w data visualization",
+    "address": "https://github.com/ShaunJorstad/Hybrid-parallelized-thermal-conduction",
+    "description": "Simulated thermal conduction within a metal plate to convergence through parallel Jacobi iterations. Optimized implementation of hybrid parallelism of processes and threads across Beowulf cluster",
+    "techStack": ["C", "OpenMP", "OpenMPI"]
+  },
+  {
+    "projectName": "Cross platform app: Drone Packing Simulation",
+    "address": "https://github.com/ShaunJorstad/Comp-350-Drones",
+    "description": "Simulated multiple drone packing algorithms for a food delivery system. Collected data visualized on a graph and exportable for further analysis. Intuitive UI allows for user to modify available food items, meal items, order distribution, drone specs and delivery points.",
+    "techStack": ["Java", "JavaFX"]
+  },
+  {
+      "projectName": "IOS app: Dinder",
+      "address": "https://github.com/ShaunJorstad/Dinder",
+      "description": "IOS application aimed to aid groups in finding common dining preferences. Groups of friends can create or join sessions, select a distance radius and time limit, and then swipe on restaurants that fit the selected criteria. After swiping left or right on the restaurants, a common restaurant is chosen between the users and displayed as a result. Backed by firestore the sessions sync between phones seamlessly with little latency.",
+      "techStack": ["SwiftUI", "Firestore"]
+  },
+  {
+      "projectName": "Android App: Puppr",
+      "address": "https://github.com/ShaunJorstad/Puppr",
+      "description": "Unpublished android app allowing local dog shelters to create profiles for dogs awaiting adoption with their local community. Users view the dogs in a Tinder like user experience",
+      "techStack": ["AndroidX", "Kotlin", "Firestore"]
+  },
+  {
+      "projectName": "Eccomerce Website: Garage Sale",
+      "address": "https://github.com/ShaunJorstad/Simple-Ecommerce-Site",
+      "description": "Website allowing users to sign up for seller acconts and post items for sale. Anyone visiting the site can select add items to the cart and purchase.",
+      "techStack": ["JavaScript", "Python", "Flask", "SQLite3", "HTML/CSS"]
+  },
+  {
+      "projectName": "React Web App: Tasks",
+      "address": "https://github.com/shaunjorstad/tasks",
+      "description": "In progress react webapp replicating MacOS reminders app with added features." ,
+      "techStack": ["React", "Javascript", "Firestore"]
+  }
+]

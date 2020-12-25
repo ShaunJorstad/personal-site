@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "lato-bold";
+  src: url("./assets/typefaces/Lato/Lato-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato-regular";
+  src: url("./assets/typefaces/Lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato-light";
+  src: url("./assets/typefaces/Lato/Lato-Light.ttf") format("truetype");
+}
+
+.lato-regular {
+  font-family: 'lato-regular';
+}
+
+.lato-light {
+  font-family: 'lato-light';
+}
+
+.timeline {
+  background-image: url("./assets/icons/timeline.svg");
+  background-size: cover;
+  display: inline-block;
+  width: 10px;
+  height: 430px;
+  float: left;
+}
+
+.title-description {
+  font-family: "lato-regular";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  max-width: 80%; 
+}
+
+.body {
+  margin: 0 auto;
+  max-width: 780px;
+}
+
+.bg-profileImage {
+  background-image: url("./assets/profile.jpg");
+  background-position: center;
+  background-size: 130%;
+  height: 280px;
+}
+
+.name {
+  font-family: "lato-bold" !important;
+  font-style: normal !important;
+  font-size: 56px !important;
+  line-height: 68px !important;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.name-underline {
+  width: 80%;
+  height: 4px;
+  float: right;
+}
+
+.projectIcon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url("./assets/icons/projectIcon.svg");
+  background-size: 100%;
+}
+
+.hover-padding:hover {
+  padding-right: 15px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

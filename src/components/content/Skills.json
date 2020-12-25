@@ -1,0 +1,56 @@
+{
+    "sectionCount": 4,
+    "sections": [
+        {
+            "title": "Languages",
+            "skills": [
+                "Java",
+                "Kotlin",
+                "Python",
+                "Javascript",
+                "Swift",
+                "C",
+                "SQL",
+                "Bash",
+                "HTML",
+                "CSS/SASS"
+            ]
+        },
+        {
+            "title": "Tools",
+            "skills": [
+                "Git/Github",
+                "React",
+                "Node",
+                "Flask",
+                "AndroidX",
+                "Jetpack",
+                "JavaFX",
+                "OpenMP",
+                "OpenMPI",
+                "TailwindCSS",
+                "JUnit",
+                "Firestore",
+                "MongoDB"
+            ]
+        },
+        {
+            "title": "Design",
+            "skills": [
+                "Ui/Ux design",
+                "Wireframing",
+                "Prototyping",
+                "User Stories",
+                "Flow Diagrams"
+            ]
+        },
+        {
+            "title": "Soft",
+            "skills": [
+                "Project Management",
+                "Agile / Scrum",
+                "TDD"
+            ]
+        }
+    ]
+}
