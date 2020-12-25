@@ -21,7 +21,7 @@ class Skills extends React.Component {
       <Section
         sectionTitle="Skills"
         content={
-          <div className={`grid grid-cols-4`}>
+          <div className="grid grid-cols-4">
             {columns}
           </div>
         }
