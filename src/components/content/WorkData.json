@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Computer Services Technician",
+        "location": "Grove City College",
+        "date": "August 2018 - Present",
+        "cancelled": false
+    },
+    {
+        "title": "Computer Science tutor",
+        "location": "Grove City College ACM",
+        "date": "August 2018-Present",
+        "cancelled": false
+    },
+    {
+        "title": "Software Engineer Intern",
+        "location": "Thermo fisher Scientific",
+        "date": "May 2020 over pandemic",
+        "cancelled": true
+    },
+    {
+        "title": "Software Engineer Intern",
+        "location": "Booz Allen Hamilton",
+        "date": "May 2020 over pandemic",
+        "cancelled": true
+    }
+]
