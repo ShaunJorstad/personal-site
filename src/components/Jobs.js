@@ -13,7 +13,7 @@ class Jobs extends React.Component {
     let jobs = data.map(job => <Job job={job} />);
     return (
       <Section
-        sectionTitle="work"
+        sectionTitle="Work"
         content={
           <div>
             <div className="timeline mr-4"></div>

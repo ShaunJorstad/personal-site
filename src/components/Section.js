@@ -8,7 +8,7 @@ class Section extends React.Component {
 
     render() {
         return (
-            <div className="my-20 grid grid-cols-5">
+            <div id={this.props.sectionTitle} className="my-20 grid grid-cols-5">
                 <div className="pr-5 text-right text-xl">
                     <span className="text-primary lato-regular text-right">{this.props.sectionTitle}</span>
                 </div>

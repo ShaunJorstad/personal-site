@@ -21,11 +21,11 @@ class Header extends React.Component {
           </span>
 
           <div className="grid grid-cols-5 w-5/6 absolute bottom-0">
-            <span className="navigation-link"><a href="#about">About</a></span>
-            <span className="navigation-link"><a href="#projects">Projects</a></span>
-            <span className="navigation-link"><a href="#work">Work</a></span>
-            <span className="navigation-link"><a href="#skills">Skills</a></span>
-            <span className="navigation-link"><a href="#connect">Connect</a></span>
+            <span className="navigation-link"><a href="#About">About</a></span>
+            <span className="navigation-link"><a href="#Projects">Projects</a></span>
+            <span className="navigation-link"><a href="#Work">Work</a></span>
+            <span className="navigation-link"><a href="#Skills">Skills</a></span>
+            <span className="navigation-link"><a href="#Lets Connect!">Connect</a></span>
           </div>
         </div>
         <div className="col-span-3 bg-profileImage rounded-2xl">
