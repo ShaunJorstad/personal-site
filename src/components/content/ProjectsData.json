@@ -31,7 +31,7 @@
   },
   {
       "projectName": "React Web App: Tasks",
-      "address": "https://github.com/shaunjorstad/tasks",
+      "address": "https://jorstad-tasks.netlify.app/",
       "description": "In progress react webapp replicating MacOS reminders app with added features." ,
       "techStack": ["React", "Javascript", "Firestore"]
   }
