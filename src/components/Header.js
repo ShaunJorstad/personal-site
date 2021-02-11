@@ -15,9 +15,7 @@ class Header extends React.Component {
             <div className="name-underline bg-primary"></div>
           </div>
           <br />
-          <span className="title-description">I’m a <span className="bold">Software Engineer</span> passionate about
-              building intuitive responsive front end applications, high
-              performing back ends and the stack in between
+          <span className="title-description">Software Engineer | Broad experience across paradigms, languages, frameworks, libraries | Seeking software engineering position starting June 2021
           </span>
 
           <div className="grid grid-cols-5 w-5/6 absolute bottom-0">

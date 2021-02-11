@@ -8,7 +8,7 @@ class About extends React.Component {
   }
 
   render() {
-    let renderedContent = data.description.map( item => <p className="opacity-7 lato-light text-lg">{item}</p>)
+    let renderedContent = data.description.map( item => <p className="opacity-7 lato-light text-md pb-3">{item}</p>)
     return (
       <Section
         sectionTitle="About"

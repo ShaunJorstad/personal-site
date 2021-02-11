@@ -3,7 +3,7 @@ import React from 'react';
 import Section from './Section.js';
 import data from './content/WorkData.json';
 import Job from './Job.js';
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Shaun Jorstad - Software Engineer - Resume.pdf';
 class Jobs extends React.Component {
   constructor(props) {
     super(props);
