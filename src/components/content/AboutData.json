@@ -1,3 +1,9 @@
 {
-    "description" : ["Hi, I’m Shaun. I am currently studying computer science at Grove City College with a concentration in Data Science and Mobile Development.", "I am an avid Linux enthusiast and never settle with the tools I use or my way of working. I am constantly seeking out new challenges and opportunities to learn.", "When coding and I are on a break, I can be found hiking, gathered around a bonfire or binging British stand-up."]
+  "description": [
+    "I am a software engineer passionate about building intuitive, dynamic front end applications with high performing backends. From my undergraduate coursework I have worked with Java, Python, C, Javascript, Kotlin, Swift, Bash, Node, Flask, React, Jest, JUnit, RESTful APIs, sql, no-sql databases and git. I am seeking employment following my graduation from Grove City College with a B.S. in Computer Science this May.",
+    "Some quick things about me:",
+    "- I thrive in collaborative projects. Within my extensive undergraduate coursework, my teams have benefitted from leveraging scrum and source control with common industry practices. I am experienced with communicating between designers, other developers, and users. Additionally, I have the skill to produce code that prioritizes all three user groups.",
+    "- Rather than focusing on a specific tech stack, I have broad experience across various languages, frameworks, platforms, and paradigms. Within the outlined projects below I include native IOS and Android apps, a cross platform simulation app, and a react webapp.",
+    "- I love to constantly learn and develop myself as a software engineer. I pride myself on my efficiency at learning and context switching between new frameworks and languages. I am committed to continuous self reflection and improvement, and am always receptive to constructive feedback."
+  ]
 }
